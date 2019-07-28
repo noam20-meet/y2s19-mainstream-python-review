@@ -8,7 +8,7 @@ if(part2.encode(643,5) == 643*5):
 	print("PASSED")
 else:
 	print("FAILED - should print 3215 for inputs of 643 and 5")
-  
+ 
 ## Test 2. Tests the encode with 2 primes, where x is out of range
 print("Test 2")
 if(part2.encode(3,5) == None):
@@ -29,6 +29,7 @@ if(part2.encode(66839) in [(751,89),(89,751)]):
 	print("PASSED")
 else:
 	print("FAILED - for the input of 66839, decode should return (751,89) in some order")
-, decode 
+
+#, decode 
 
 ##Write more test cases here
